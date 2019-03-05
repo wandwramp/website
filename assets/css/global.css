@@ -188,7 +188,11 @@ a:hover {
 #content {
     font-size: 13px;
     padding: 20px;
-    /*margin-right: 30%;*/
+	margin-right: 50%;
+	/*max-width: 70%;*/
+}
+img {
+	max-width: 100%;
 }
 
 .nowrap {

@@ -15,8 +15,7 @@ The Verilog implementation is called WRAMPsys, please note this is not System Ve
 The WRAMP processor is bus based, with three internal buses.
 IO devices are memory mapped which include 2 serial ports, a parallel port, a timer module and the ROM/RAM modules.
 
-<img src="assets/WRAMParch.png" alt="WRAMParch"
-	title="WRAMP architecture" width="1000" />
+![WRAMP architecture](assets/WRAMParch.png)
 
 WRAMPmon is a monitor built into the source of WRAMPsys via a .mem file, monitor.mem is provided with the repo, and can also be rebuilt from WRAMPmon.
 WRAMPmon allows the loading of .srec files to RAM via a serial connection, as well as debugging loaded software.
