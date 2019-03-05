@@ -1,8 +1,12 @@
 - name: Home
-  link: /home.html
-- name: Index
   link: /
-- name: About
-  link: /about.html
+- name: Github
+  link: https://github.com/wandwramp/
+- name: Manual
+  link: /assets/book.pdf
+- name: Cheat Sheet
+  link: /assets/insn.pdf
 - name: Example
   link: /example.html
+- name: About
+  link: /about.html
