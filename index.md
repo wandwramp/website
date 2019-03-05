@@ -30,6 +30,8 @@ Slower speeds can be choosen if desired.
 A [simulator](https://github.com/wandwramp/wsim) is provided to bypass the need for the actual hardware.
 The simulator provides the ability to view the contents of RAM and the registers as software is running as well as stepping through the code.
 
+![wsim example](assets/wsim.png)
+
 wasm, and wcc make up the [toolchain](https://github.com/wandwramp/toolchain) for WRAMP.
 wasm, contains the assembler, linker and object viewer (wasm, wlink, wobj).
 [wcc](https://github.com/wandwramp/wcc) is a compiler based off of lcc.
