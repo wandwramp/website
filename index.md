@@ -12,7 +12,7 @@ The initial implementation on REX boards was developed at the University of Waik
 The original version of WRAMP was written in VHDL across several logic devices within a host board, the REX board.
 As part of the porting process, the source was rewritten in Verilog for use with Vivado and the Basys3.
 
-The Verilog implementation is called [WRAMPsys](https://github.com/wandwramp/WRAMPsys), please note this is not System Verilog despite the name. 
+The Verilog implementation is called [WRAMPsys](https://github.com/wandwramp/WRAMPsys), please note this is not in System Verilog despite the name. 
 
 The WRAMP processor is bus based, with three internal buses.
 IO devices are memory mapped which include 2 serial ports, a parallel port, a timer module and the ROM/RAM modules.
