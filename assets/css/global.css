@@ -188,8 +188,8 @@ a:hover {
 #content {
     font-size: 13px;
     padding: 20px;
-	margin-right: 50%;
-	/*max-width: 70%;*/
+	margin-right: 30%;
+	/*min-width: 1080px%;*/
 }
 img {
 	max-width: 100%;
