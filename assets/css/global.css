@@ -188,7 +188,8 @@ a:hover {
 #content {
     font-size: 13px;
     padding: 20px;
-	margin-right: 30%;
+	margin-right: 10%;
+	margin-left: 10%;
 	/*min-width: 1080px%;*/
 }
 img {

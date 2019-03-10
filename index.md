@@ -7,10 +7,10 @@ subTitle: WAND - WRAMP
 
 The Waikato RISC Architecture Micro Processor or WRAMP, is designed to be a simple architecture which can help you gain a practical understanding of the internal workings of a computer.
 WRAMP provides an introduction to assembly programming, ABI conventions, interrupt handling and stack frames.
-The initial implementation on REX boards was developed at the University of Waikato by Dean Armstrong, as part of an undergraduate degree. The implementation for [Basys3 FPGAs](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) was developed by Daniel Oosterwijk and Tyler Marriner at the University of Waikato.
+The initial implementation on REX boards was developed at the University of Waikato by Dean Armstrong, as part of an undergraduate degree. The implementation for [Basys3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) FPGAs was developed by Daniel Oosterwijk and Tyler Marriner at the University of Waikato.
 
 The original version of WRAMP was written in VHDL across several logic devices within a host board, the REX board.
-As part of the porting process, the source was rewritten in Verilog for use with Vivado and the Basys3.
+As part of the porting process, the source was rewritten in Verilog for use with Vivado and the Basys3. This new version contains 16 LEDs and 16 switches as well as 4 SSDs and 3 usable buttons (two of the buttons are reserved, one for a user interrupt and one for a reset button).
 
 The Verilog implementation is called [WRAMPsys](https://github.com/wandwramp/WRAMPsys), please note this is not in System Verilog despite the name. 
 

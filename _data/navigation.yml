@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Install
+  link: /gettingStarted.html
 - name: Github
   link: https://github.com/wandwramp/
 - name: Manual
