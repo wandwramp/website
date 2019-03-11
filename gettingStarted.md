@@ -6,7 +6,7 @@ contentType: "content"
 
 ## Installing the ToolChain
 
-Whether you are running the simulator or physical boards you will need to install the toolchain, comprising of [`wasm`, `wlink`](https://github.com/wandwramp/toolchain/releases) and [`wcc`](https://github.com/wandwramp/wcc/releases). These can be obtained from the releases page of their respective repos or built from source. `wcc` expects to be installed in the same location as `wasm` and `wlink` or as long as they are accessible from PATH.
+Whether you are running the simulator or physical boards you will need to install the toolchain, comprising of [`wasm`, `wlink`](https://github.com/wandwramp/toolchain/releases) and [`wcc`](https://github.com/wandwramp/wcc/releases). These can be obtained from the releases page of their respective repos or built from source. `wcc` expects to be installed in the same location as `wasm` and `wlink` or have them accessible from PATH.
 
 The releases are built for Ubuntu16.04, more information can be found in the respective repos.
 
@@ -16,7 +16,7 @@ The simulator ([`wsim`](https://github.com/wandwramp/wsim/releases)) runs under 
 
 ## Using the physical boards
 
-The [WRAMPsys](https://github.com/wandwramp/WRAMPsys) implementation was built for the [Basys3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) FPGAs, meaning you will need Vivado and either a physical Basys3 board or modify the constraints file and rebuild the source for your particular FPGA yourself. The bitstream can be obtained from the releases section of the WRAMPsys (TODO: make a release for WRAMPsys) repo and instructions for flashing the boards can be found [here](https://reference.digilentinc.com/learn/programmable-logic/tutorials/basys-3-programming-guide/start#programming_the_basys3_using_quad_spi).
+The [WRAMPsys](https://github.com/wandwramp/WRAMPsys) implementation was built for the [Basys3](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) FPGAs, meaning you will need Vivado and either a physical Basys3 board or modify the constraints file and rebuild the source for your particular FPGA yourself. The bitstream can be obtained from the releases section of the [WRAMPsys](https://github.com/wandwramp/WRAMPsys/releases) repo and instructions for flashing the boards can be found [here](https://reference.digilentinc.com/learn/programmable-logic/tutorials/basys-3-programming-guide/start#programming_the_basys3_using_quad_spi).
 
 To interface with the board, you will need a serial connection, the Basys3 uses serial over the micro USB used to provide power. [Remote]() is provided as a convenient way to upload files to the board. The serial address of the board will need to be provided to remote, details are in the README. The default settings for this connection are a baud rate of 38400, one stop bit and no parity bits.
 

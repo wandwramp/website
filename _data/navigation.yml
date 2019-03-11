@@ -6,5 +6,7 @@
   link: https://github.com/wandwramp/
 - name: Manual
   link: /book.html
-- name: Cheat Sheet
+- name: Instructions
   link: /insn.html
+- name: Cheat Sheet
+  link: /cheat.html
