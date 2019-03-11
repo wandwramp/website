@@ -5,9 +5,9 @@
 - name: Github
   link: https://github.com/wandwramp/
 - name: Manual
-  link: /assets/book.pdf
+  link: /book.html
 - name: Cheat Sheet
-  link: /assets/insn.pdf
+  link: /insn.html
 - name: Example
   link: /example.html
 - name: About

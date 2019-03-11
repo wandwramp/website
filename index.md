@@ -1,6 +1,7 @@
 ---
 title: Waikato RISC Architecture Micro Processor
 subTitle: WAND - WRAMP
+contentType: content
 ---
 
 ## Welcome to WRAMP

@@ -190,13 +190,16 @@ a:hover {
     padding: 20px;
 	margin-right: 10%;
 	margin-left: 10%;
-	/*min-width: 1080px%;*/
 }
 img {
 	display: block;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#pdfFile {
+	min-height: 80%;
 }
 
 .nowrap {

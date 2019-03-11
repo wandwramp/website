@@ -1,6 +1,7 @@
 ---
 title: Installing the WRAMP environment
 subTitle: WAND - WRAMP
+contentType: "content"
 ---
 
 ## Installing the ToolChain

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: About
+contentType: content
 ---
-# About page
+## About page
 
 This page tells you a little bit about me.
 
