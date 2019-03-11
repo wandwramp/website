@@ -200,6 +200,9 @@ img {
 
 #pdfFile {
 	min-height: 80%;
+	position: fixed;
+	height: 100%;
+	width: 100%;
 }
 
 .nowrap {
