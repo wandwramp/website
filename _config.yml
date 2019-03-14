@@ -2,7 +2,7 @@ collections:
   authors:
     output: true
 
-theme: uow-wand
+remote_theme: uow-wand
 
 defaults:
   - scope:
