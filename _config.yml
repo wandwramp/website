@@ -2,7 +2,7 @@ collections:
   authors:
     output: true
 
-remote_theme: tyler-marr/uow-wand
+remote_theme: wanduow/uow-wand
 
 defaults:
   - scope:
